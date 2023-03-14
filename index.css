@@ -1,0 +1,99 @@
+body{
+    background: hsla(110, 96%, 11%, 0.945);
+}
+.topo{
+
+    display: flex;
+    flex-direction: column;
+}
+.topo_titulo{
+    width: 350px;
+    height: 250px;
+    text-align: center; 
+    background: #d3cb82;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.topo_titulo-nome{
+    
+    padding-top: 1px;
+}
+
+.intermediario-esquerda{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 30px;
+    width: 430px;
+    height: 250px;
+    background: #d3cb82;
+    border-radius: 30px;
+}
+.intermediario-direita{
+    position: absolute;
+    margin-left: 64%;
+    margin-top: 30px;
+    width: 430px;
+    height: 250px;
+    background: #d3cb82;
+    border-radius: 30px;
+}
+.intermediario_titulo{
+    text-align: center;
+}
+.intermediario_link{
+    padding-left: 180px;
+}
+
+.habilidades{
+    list-style: none;
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #ece5d2;
+    border-radius: 30px;
+}
+.habilidades_titulos{
+    padding-top: 20px;
+    text-align: center;
+}
+.habilidades_subtitulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.experiencia{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 30%;
+    width: 900px;
+    height: 250px;
+    background: #d3cb82;
+    border-radius: 30px;
+}
+.experiencia_titulo{
+    text-align: center;
+}
+.experiencia_titulo-contatos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    gap: 80px;
+    list-style: none;
+}
+.tecnologias{
+    width: 350px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: #e9e5c7;
+    border-radius: 30px;
+}
+.tecnologias_titulo{
+    text-align: center;
+}
+
+

@@ -1,0 +1,26 @@
+.imagem_paisagem{
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 60px;
+}
+.experiencia_imagens-contatos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    gap: 150px;
+}
+.experiencia_imagens-contatos-unidades{
+    width: 50px;
+    background-color: #d1c992;
+}
+.habilidades_subtitulos-imagens{
+    list-style: none;
+    padding-top: 10px;
+    gap: 25px;
+    width: 92px;
+}
+.tecnologias_imagens{
+    padding-left: 20px;
+    
+}
